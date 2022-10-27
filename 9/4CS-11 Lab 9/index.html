@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  .big-text {
+   font-size: x-large
+  }
+ </style>
+</head>
+<!--
+ JavaScript (ES6) code snippets
+ Prettier - Code formatter
+-->
+
+<body>
+ <h1>Text from h1</h1>
+ <script>
+  console.log("tex sdtds gd gfdg fd");
+  console.debug(45);
+  console.debug(45 + 454);
+  console.log(`tex ${123 * 5} sdtds gd gfdg fd`);
+  console.log("tex ", 123 * 5, " sdtds gd gfdg fd");
+
+  let str = 'text 1' + (45 * 3 / 2) + "text 2";
+  console.debug(str);
+  str = `text 1 ${45 * 3 / 2} text 2`;
+  console.debug(str);
+
+  document.write("Hello world");
+  document.write("Hello world");
+  document.writeln("Hello world<br>");
+  document.write("Hello world");
+
+  // to create string value we can use:
+  // - ""
+  // - ''
+  // - ``
+  document.write("<br><span style=\"color: red\">Hello world</span>");
+  document.write("<br><span style='color: red'>Hello world</span>");
+  document.write('<br><span style=\'color: red\'>Hello world</span>');
+  document.write('<br><span style="color: red">Hello world</span>');
+  document.write(`<br><span style="color: red">Hello world</span>`);
+  document.write(`<br><span class="big-text" style='color: red'>Hello world</span>`);
+
+  console.log("test" + 45);
+  console.log("test" + 45 + "asf dg dfg fd");
+  console.log("test" - 45);
+  console.log("23" - 45);
+ </script>
+ <h4>Text from h4</h4>
+ <div style="display: flex;">
+  <div style="width: fit-content; margin: 10px; padding: 20px 15px; border: 3px solid black" id="click-reset">Reset
+  </div>
+  <div style="width: fit-content; margin: 10px; padding: 20px 15px; border: 3px solid black" id="click-new">Add</div>
+ </div>
+ <div id="click-inc-1">
+  <span id="click-counter" class="click-counters">0</span>
+  <button id="click-executor">Click</button>
+ </div>
+ <div id="click-inc-5">
+  <span id="click-counter" class="click-counters">0</span>
+  <button id="click-executor">Click</button>
+ </div>
+
+ <input id="input"><button id="input-execute">Execute input</button>
+ <script src="./js/index.js"></script>
+</body>
+
+</html>

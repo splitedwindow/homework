@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
+.img {
+  background-image: url("../imgs/weldhotsolderingradiowelder73833.jpeg");
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.cells {
+  display: grid;
+  width: 50%;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cell > * {
+  display: block;
+  margin: 10px;
+}
+
+.orange {
+  background-color: rgb(248, 109, 9);
+}
+
+.grey {
+  background-color: rgb(31, 35, 38);
+}
+
+footer {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  background-color: rgb(77, 77, 77);
+}

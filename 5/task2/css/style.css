@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(42, 42, 68);
+  font-family:Cambria, Cochin, Georgia,
+   Times, 'Times New Roman', serif;
+  color:rgb(60, 60, 60);
+  overflow: hidden;
+  min-height: 650px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+}
+
+.meet {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.cubibis {
+  width: 55%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.content {
+  width: 600px;
+  
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+
+  box-shadow: 10px 5px 7px rgb(17, 17, 72);
+}
+
+.new-start {
+  font-size: 50px;
+  margin: 10px;
+
+}
+
+.inputo {
+  width: 90%;
+  height: 30px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+#notify {
+  width: 90%;
+  height: 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  box-shadow: 3px 3px 7px rgb(113, 113, 113);
+  margin-left: 5%;
+}
+
+#notify {
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.help-me-please {
+  width: 370px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.icon {
+  width: 25px;
+  margin: 5px;
+}
+
+.picture {
+  height: 100vh;
+  width: 45%;
+  background-image: url("../img/girl.jpg");
+  background-size: cover;
+  background-position: 45%;
+}
+
+@media screen and (max-width: 800px) {
+  .picture{
+    background-image: none;
+    width: 0%;
+  }
+  .cubibis {
+    width: 90%;
+  }
+}
+
+
+/* prevent white box from streching vertically too much */
+@media screen and (min-height: 1110px) {
+  .cubibis {
+    height: 70vh;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .picture{
+    width: 60vw;
+  }
+  .content {
+    box-shadow: 20px 1px 20px rgb(17, 17, 72);
+  }
+}
+@media screen and (min-width: 2000) {
+  .picture{
+    width: 100%;
+  }
+
+}
+

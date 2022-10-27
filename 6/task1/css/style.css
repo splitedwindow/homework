@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(42, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-wrapper {
+  width: 100%;
+  aspect-ratio: 1/0.7;
+  display: flex;
+  flex-direction: column;
+}
+
+.two-layers-wrapper {
+  display: flex;
+  width: 100%;
+  height: 66%;
+}
+
+.last-layer-wrapper {
+  display: flex;
+  width: 100%;
+  height: 34%;
+}
+
+.all4pics {
+  width: 66%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.small-pic {
+  width: 50%;
+  height: 100%;
+
+  background-size: cover;
+}
+
+#logo {
+  width: 20%;
+}
+
+.p1 {
+  background-color: black;
+}
+
+.p2 {
+  background-image: url("../imgs/pexelsphoto1.jpg");
+}
+
+.p3 {
+  background-image: url("../imgs/pexelsphoto1516654.jpeg");
+}
+
+.p4 {
+  font-size: 130px;
+  font-weight: bolder;
+  text-decoration: underline;
+  background-color: rgb(208, 61, 72);
+}
+
+.p5 {
+  width: 34%;
+  height: 100%;
+  background-image: url("../imgs/pexelsphoto2529148.jpeg");
+}
+
+.p6 {
+  width: 66%;
+  height: 100%;
+
+  background-image: url("../imgs/pexelsphoto2101345.jpg");
+  background-size: cover;
+  background-position-y: 29%;
+}
+
+.p7 {
+  width: 34%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../imgs/Untitled2.png");
+  background-position-y: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
