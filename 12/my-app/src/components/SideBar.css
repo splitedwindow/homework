@@ -1,0 +1,108 @@
+.sidebar {
+  background-color: #fff;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+}
+
+.container {
+  margin: 45px 45px 0px 45px;
+  width: 100%;
+}
+
+.grey-line {
+  background-color: rgb(147, 147, 147);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 90px;
+  height: 1px;
+}
+
+.text {
+  color: rgb(134, 134, 134);
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.nav-text {
+  line-height: 170%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  transition: 150ms;
+  letter-spacing: 1px;
+}
+
+.nav-text a:hover {
+  color: #000;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(134, 134, 134);
+  transition: 200ms;
+}
+
+.small-icon {
+  color: rgb(134, 134, 134);
+  font-size: 20px;
+  width: 24px;
+  transition: 150ms;
+}
+
+.small-icon:hover {
+  color: #000;
+  cursor: pointer;
+}
+@media only screen and (max-width: 950px)
+{
+  .sidebar {
+    width: 270px;
+  }
+  .container {
+    margin: 30px 30px 0px 30px;
+  }
+}
+@media only screen and (max-width: 750px)
+{
+  * {
+    text-align: center;
+    line-height: 160%;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin: auto;
+    width: 100%;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    height: auto;
+  }
+  .grey-line {
+    display: none;
+  }
+  .menu-bars {
+    display: flex;
+    justify-content: center;
+  }
+  .menu-bars span {
+    margin-right: 15px;
+    line-height: 280%;
+  }
+  h1 {
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  .small-icon {
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 1200px)
+{
+
+}
