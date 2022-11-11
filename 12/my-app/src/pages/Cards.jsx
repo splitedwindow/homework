@@ -16,7 +16,9 @@ function Cards({ navigation }) {
           {CardsData.map((item, index) => {
             return (
               <div key={index} className="card">
-                <div className={item.cName}></div>
+                <Link to={`/${index + 1}`}>
+                  <div className={item.cName}></div>
+                </Link>
                 <div className="card-content">
                   <div className="title">{item.title}</div>
                   <div className="text">{item.text}</div>

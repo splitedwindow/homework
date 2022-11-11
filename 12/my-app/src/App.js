@@ -2,22 +2,34 @@ import "./App.css";
 import React from "react";
 import SideBar from "./components/SideBar";
 import Cards from "./pages/Cards";
+import Page404 from "./pages/Page404";
+import About from "./pages/About/About";
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   BrowserRouter,
+  Redirect,
 } from "react-router-dom";
-import Categories from './pages/Categories'
+import Categories from "./pages/Categories";
+import Card from "./pages/Card";
 
 function App() {
+  const [showSidebar, setShowSidebar] = React.useState();
+  const handleToggleSideBar = () => {
+    setShowSidebar(!showSidebar);
+  };
   return (
     <>
       <BrowserRouter>
         <SideBar />
         <Routes>
-          <Route path="/" exact element={<Cards />} />
-          <Route path="/categories/:tagName" exact element={<Categories />} />
+          <Route exact path="/" element={<Cards />} />
+          <Route path="/categories/:tagName" element={<Categories />} />
+          <Route path="/:id" element={<Card />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
     </>

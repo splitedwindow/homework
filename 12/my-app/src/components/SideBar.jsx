@@ -12,7 +12,9 @@ function SideBar() {
     <>
       <div className="sidebar">
         <div className="container">
-          <h1>Milton</h1>
+          <Link to='/'>
+            <h1 style={{color: "black"}}>Milton</h1>
+          </Link>
           <div className="grey-line"></div>
           <div className="text">
             Denali is a simple responsive blog template. Easily add new posts

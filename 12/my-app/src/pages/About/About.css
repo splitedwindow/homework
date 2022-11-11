@@ -1,0 +1,47 @@
+.about {
+  box-sizing: border-box;
+  padding: 50px;
+  margin-left: 350px;
+  width: 70% - 400px;
+  max-width: 1200px;
+  background-color: rgb(238, 238, 238);
+  line-height: 155%;
+}
+
+.author-card {
+  background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.author-pic {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position-y: 70%;
+  border-radius: 5px 5px 0 0;
+  background-image: url("../../imgs/cat-author.jpeg");
+}
+
+.button {
+  color: #fff;
+  background-color: rgb(123, 122, 122);
+  width: 120px;
+  text-align: center;
+  line-height: 270%;
+  border-radius: 5px;
+  margin-top: 25px;
+  transition: 200ms;
+}
+
+.button:hover {
+  background-color:rgb(85, 85, 85);
+}
+
+.contact-link {
+  color: #fff;
+  width: 100%;
+  height: 100%;;
+}
