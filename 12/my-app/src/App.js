@@ -3,7 +3,8 @@ import React from "react";
 import SideBar from "./components/SideBar";
 import Cards from "./pages/Cards";
 import Page404 from "./pages/Page404";
-import About from "./pages/About/About";
+import About from "./pages/About";
+import Contact from "./pages/Contact/Contact"
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ function App() {
           <Route path="/categories/:tagName" element={<Categories />} />
           <Route path="/:id" element={<Card />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact /> } />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>

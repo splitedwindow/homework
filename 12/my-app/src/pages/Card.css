@@ -1,5 +1,4 @@
-.content
-{
+.content {
   box-sizing: border-box;
   padding: 50px;
   margin-left: 350px;
@@ -11,15 +10,12 @@
   color: #000;
 }
 
-
 .title {
   font-size: 30px;
   margin-bottom: 15px;
   line-height: 115%;
   transition: 300ms;
 }
-
-
 
 .smaller-title {
   font-size: 21px;
@@ -54,10 +50,8 @@
   font-style: bold;
 }
 
-
 .blue-link {
   color: rgb(52, 186, 238);
-  
 }
 
 .text-block {
@@ -80,7 +74,6 @@
 }
 
 .card {
-  
   background-color: #fff;
   margin-bottom: 50px;
   border-radius: 5px;
@@ -129,15 +122,13 @@
   color: #000;
 }
 
-@media only screen and (max-width: 950px)
-{
+@media only screen and (max-width: 950px) {
   .content {
     padding: 30px;
     margin-left: 270px;
   }
 }
-@media only screen and (max-width: 750px)
-{
+@media only screen and (max-width: 750px) {
   .content {
     margin-left: 30px;
   }

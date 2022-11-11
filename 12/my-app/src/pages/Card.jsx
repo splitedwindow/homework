@@ -15,6 +15,7 @@ function Card() {
       <div className="content">
         {CardsData.map((item, index) => {
           let imgId = "background-image: " + item.picture + ";";
+          let tag = "/categories/" + item.tag
           if (index === cardId) {
             return (
               <div key={index} className="card">
@@ -24,7 +25,8 @@ function Card() {
                   <div className="date-tag">
                     <span className="card-date">{item.date}</span>
                     <span>|</span>
-                    <Link to={item.path}>
+                    
+                    <Link to={tag}>
                       <span className="tag">{item.tag}</span>
                     </Link>
                   </div>

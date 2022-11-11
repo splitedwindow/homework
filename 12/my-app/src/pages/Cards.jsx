@@ -20,7 +20,9 @@ function Cards({ navigation }) {
                   <div className={item.cName}></div>
                 </Link>
                 <div className="card-content">
-                  <div className="title">{item.title}</div>
+                  <Link to={`/${index + 1}`} style={{color: "black"}}>
+                    <div className="title">{item.title}</div>
+                  </Link>
                   <div className="text">{item.text}</div>
                   <div className="date-tag">
                     <span className="card-date">{item.date}</span>

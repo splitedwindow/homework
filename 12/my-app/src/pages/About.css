@@ -1,4 +1,4 @@
-.about {
+.content {
   box-sizing: border-box;
   padding: 50px;
   margin-left: 350px;
@@ -6,6 +6,13 @@
   max-width: 1200px;
   background-color: rgb(238, 238, 238);
   line-height: 155%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: 30px;
+  }
 }
 
 .author-card {
@@ -22,7 +29,7 @@
   background-size: cover;
   background-position-y: 70%;
   border-radius: 5px 5px 0 0;
-  background-image: url("../../imgs/cat-author.jpeg");
+  background-image: url("../imgs/cat-author.jpeg");
 }
 
 .button {

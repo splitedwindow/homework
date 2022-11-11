@@ -5,8 +5,8 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className="about">
-        <div className="content-wrapper">
+      <div className="content">
+        <div className="card">
           <div className="author-card">
             <div className="author-pic"></div>
             <div className="card-content">

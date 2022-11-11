@@ -1,0 +1,30 @@
+.title-input {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.text-input {
+  line-height: 220%;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 100%;
+  
+}
+
+.message-field {
+  min-height: 100px;
+  text-align: start;
+  resize: none;
+  line-height: 120%;
+  padding: 10px;
+}
+
+.message-field::placeholder {
+  text-align: top;
+}
+
+#button-id {
+  margin-top: 10px;
+}

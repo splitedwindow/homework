@@ -12,10 +12,13 @@ function Categories() {
       <div className="content">
         <div className="cards">
           {CardsData.map((item, index) => {
+            let redirect = "/" + String(index + 1);
             if (item.tag === tagName) {
               return (
                 <div key={index} className="card">
-                  <div className={item.cName}></div>
+                  <Link to={redirect}>
+                    <div className={item.cName}></div>
+                  </Link>
                   <div className="card-content">
                     <div className="title">{item.title}</div>
                     <div className="text">{item.text}</div>
