@@ -31,7 +31,7 @@ function App() {
           <Route path="/:id" element={<Card />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact /> } />
-          <Route path="*" element={<Page404 />} />
+          <Route exact path="*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
     </>

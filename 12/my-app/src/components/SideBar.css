@@ -6,10 +6,7 @@
   position: fixed;
 }
 
-.container {
-  margin: 45px 45px 0px 45px;
-  width: 100%;
-}
+
 
 .grey-line {
   background-color: rgb(147, 147, 147);
@@ -18,7 +15,10 @@
   width: 90px;
   height: 1px;
 }
-
+.container {
+  margin: 45px 45px 0px 45px;
+  width: 100%;
+}
 .text {
   color: rgb(134, 134, 134);
   font-size: 14px;

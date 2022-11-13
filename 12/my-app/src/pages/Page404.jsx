@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CardsData } from "./CardsData";
+import "./Page404.css"
 
 function Page404() {
   return (

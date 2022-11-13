@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { CardsData } from "./CardsData";
 import { Link } from "react-router-dom";
 import "./Card.css";
@@ -8,14 +8,26 @@ function Card() {
   const { id } = useParams();
   const cardId = id - 1;
   const name = "card" + String(id);
-
+  let navigate = useNavigate();
+  
+  let checkValid = () => {
+    if (isNaN(id)) {
+      navigate("/");
+    }
+    if(parseInt(id) > CardsData.length || parseInt(id) < 0)
+    {
+      navigate("/");
+    }
+  }
+  
   return (
     <>
-      {window.scrollTo(0,0)}
+      {window.scrollTo(0, 0)}
+      {checkValid()}
       <div className="content">
         {CardsData.map((item, index) => {
           let imgId = "background-image: " + item.picture + ";";
-          let tag = "/categories/" + item.tag
+          let tag = "/categories/" + item.tag;
           if (index === cardId) {
             return (
               <div key={index} className="card">
@@ -25,7 +37,7 @@ function Card() {
                   <div className="date-tag">
                     <span className="card-date">{item.date}</span>
                     <span>|</span>
-                    
+
                     <Link to={tag}>
                       <span className="tag">{item.tag}</span>
                     </Link>
