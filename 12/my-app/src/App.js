@@ -7,11 +7,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact/Contact"
 
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   BrowserRouter,
-  Redirect,
 } from "react-router-dom";
 import Categories from "./pages/Categories";
 import Card from "./pages/Card";
