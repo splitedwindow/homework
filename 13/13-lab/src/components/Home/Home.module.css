@@ -31,6 +31,7 @@
 
 .menu-item {
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .swiper {
@@ -43,7 +44,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  color: rgb(38,38,38)
+  color: rgb(38,38,38);
+  margin-bottom: 70px;
 }
 
 .four-template {
@@ -75,7 +77,7 @@
 .four-title {
   font-size: 22px;
   font-weight: 600;
-  color: rgb(38,38,38);
+  color: rgb(120, 120, 120);
 }
 
 .four-text {
@@ -90,6 +92,73 @@
 
 .right {
   width: 50%;
+}
+
+.two-headlines {
+  height: 500px;
+  margin-top: 60px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.two-left, .two-right {
+  width: 48%;
+  padding-right: 30px;
+}
+
+.two-title {
+  font-size: 30px;
+  font-weight: 500;
+  color:rgb(120, 120, 120);
+  margin-bottom: 25px;
+}
+
+.two-text {
+  margin: 10px 0;
+}
+
+.two-rectangle {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(74, 74, 74);
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+footer {
+  color: rgb(120, 120, 120);
+  background-color: rgb(38,38,38);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-top: 45px;
+}
+
+.footer-section {
+  width: 24%;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.underline {
+  width: 100%;
+  border: 0.5px solid grey;
+}
+
+.nav-title {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.nav-list {
+  margin-top: 40px;
+  color: orange;
+}
+
+.darker-underline {
+  border: 0.5px solid rgb(58, 58, 58);
 }
 
 .rs-1200 {
