@@ -38,7 +38,59 @@
   background-color: orange;
 }
 
+.four-headlines {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  color: rgb(38,38,38)
+}
 
+.four-template {
+  height: 50%;
+  display:flex;
+  padding: 20px 20px 0 40px;
+  width: 90%;
+  
+}
+
+.left {
+  width: 50%;
+}
+
+.four-content {
+  margin-left: 20px;
+}
+
+.cube-div {
+  width: 100px;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(38,38,38);
+}
+
+.four-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(38,38,38);
+}
+
+.four-text {
+  margin: 10px 0;
+}
+
+.read-more {
+  text-align: right;
+  color: orange;
+  font-weight: 500;
+}
+
+.right {
+  width: 50%;
+}
 
 .rs-1200 {
   font-weight: 500;
