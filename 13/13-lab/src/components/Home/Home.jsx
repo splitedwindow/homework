@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Home.module.css";
+import MySwiper from "../MySwiper/MySwiper";
 
 function Home() {
+
   return (
     <>
       <div className={styles["content"]}>
@@ -27,7 +29,7 @@ function Home() {
           <span className={styles["menu-item"]}>link text</span>
           <span className={styles["menu-item"]}>a very long link text</span>
         </div>
-        <div className={styles["swiper"]}></div>
+        <MySwiper />
         <section className={styles["four-headlines"]}>
           <div className={styles.left}>
             <div className={styles["four-template"]}>
@@ -183,18 +185,89 @@ function Home() {
             <div className={styles["footer-gallery"]}>
               <div className={styles["nav-title"]}>Latest Gallery</div>
               <hr className={styles.underline} />
+              <div className={styles["gallery-grid"]}>
+                <div className={styles["grid-column1"]}>
+                  <div className={styles["gallery-grid-item"]}></div>
+                  <div className={styles["gallery-grid-item"]}></div>
+                  <div className={styles["gallery-grid-item"]}></div>
+                </div>
+                <div className={styles["grid-column2"]}>
+                  <div className={styles["gallery-grid-item"]}></div>
+                  <div className={styles["gallery-grid-item"]}></div>
+                  <div className={styles["gallery-grid-item"]}></div>
+                </div>
+                <div className={styles["grid-column1"]}>
+                  <div className={styles["gallery-grid-item"]}></div>
+                  <div className={styles["gallery-grid-item"]}></div>
+                  <div className={styles["gallery-grid-item"]}></div>
+                </div>
+              </div>
             </div>
           </div>
           <div className={styles["footer-section"]}>
             <div className={styles["footer-twitter"]}>
               <div className={styles["nav-title"]}>From Twitter</div>
-              <hr className={styles.underline} />
+              <hr
+                className={styles.underline}
+                style={{ marginBottom: "40px" }}
+              />
+              <div className={styles["twitter-text"]}>
+                @<span style={{ color: "orange" }}>name</span>RT @
+                <span style={{ color: "orange" }}>name</span>Donec suscipit
+                vehicula turpis sed lutpat Quisque vitae quam neque.{" "}
+                <span style={{ fontSize: "11px", color: "orange" }}>
+                  about 9 hours ago
+                </span>
+                <hr
+                  className={styles["darker-underline"]}
+                  style={{ margin: "20px 0" }}
+                />
+              </div>
+              <div className={styles["twitter-text"]}>
+                @<span style={{ color: "orange" }}>name</span>RT @
+                <span style={{ color: "orange" }}>name</span>Donec suscipit
+                vehicula turpis sed lutpat Quisque vitae quam neque.{" "}
+                <span style={{ fontSize: "11px", color: "orange" }}>
+                  about 9 hours ago
+                </span>
+                <hr
+                  className={styles["darker-underline"]}
+                  style={{ margin: "20px 0" }}
+                />
+              </div>
+              <div className={styles["twitter-text"]}>
+                @<span style={{ color: "orange" }}>name</span>RT @
+                <span style={{ color: "orange" }}>name</span>Donec suscipit
+                vehicula turpis sed lutpat Quisque vitae quam neque.{" "}
+                <span style={{ fontSize: "11px", color: "orange" }}>
+                  about 9 hours ago
+                </span>
+                <hr
+                  className={styles["darker-underline"]}
+                  style={{ margin: "20px 0" }}
+                />
+              </div>
             </div>
           </div>
           <div className={styles["footer-section"]}>
             <div className={styles["footer-contact"]}>
               <div className={styles["nav-title"]}>Contact Us</div>
-              <hr className={styles.underline} />
+              <hr
+                className={styles.underline}
+                style={{ marginBottom: "40px" }}
+              />
+
+              <span className={styles["name"]}>Name *</span>
+              <br />
+              <input type="text" className={styles["text-input"]} />
+              <span className={styles["name"]}>Email *</span>
+              <br />
+              <input type="text" className={styles["text-input"]} />
+              <textarea className={styles["textarea"]}></textarea>
+              <div className={styles.buttons}>
+                <button className={styles.submit}>Submit</button>
+                <button className={styles.reset}>Reset</button>
+              </div>
             </div>
           </div>
         </footer>

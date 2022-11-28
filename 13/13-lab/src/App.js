@@ -1,17 +1,11 @@
 import './App.css';
 import React from 'react';
-import Home from "./components/Home/Home"
-
-import {
-  Routes,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <>
-      <Home />    
+      <Home />
     </>
   );
 }
