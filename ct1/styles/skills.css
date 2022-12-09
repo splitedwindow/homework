@@ -1,0 +1,245 @@
+.skills {
+  background-color: rgb(242, 242, 242);
+}
+
+.about-me {
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 50px;
+}
+
+.self-photo {
+  width: 150px;
+  height: 150px;
+  background-image: url("../img/about.jpg");
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: 600;
+  color: black;
+}
+
+.left-side {
+  padding-right: 10px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.right-side {
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.info-row {
+  margin-bottom: 25px;
+}
+
+.self-info {
+  margin-left: 20px;
+}
+
+.skill-filling-line {
+  margin-top: 20px;
+}
+
+.blue-filling-line {
+  height: 10px;
+  background-color: rgb(13, 94, 255);
+}
+
+.line-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.lighter-blue-line {
+  background-color: rgb(196, 217, 246);
+  height: 10px;
+}
+
+.lighter1 {
+  width: 15%;
+}
+
+.blue1 {
+  width: 85%;
+}
+
+.lighter2 {
+  width: 25%;
+}
+
+.blue2 {
+  width: 75%;
+}
+
+.lighter3 {
+  width: 50%;
+}
+
+.blue3 {
+  width: 50%;
+}
+
+.lighter4 {
+  width: 10%;
+}
+
+.blue4 {
+  width: 90%;
+}
+
+.bigger-font {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue-underline {
+  height: 3px;
+  background-color: rgb(13, 94, 255);
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+.text-div {
+  font-size: 19px;
+  margin-bottom: 10px;
+  line-height: 145%;
+}
+
+.center-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.big-headline {
+  font-size: 55px;
+  margin-bottom: 7px;
+}
+
+.center {
+  display: flex;
+}
+
+.services-underline {
+  width: 50px;
+  height: 5px;
+  margin-bottom: 70px;
+  margin-top: 7px;
+}
+
+.cards-wrapper-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  /* margin-left: 80px; */
+  margin-right: 80px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 28%;
+  align-items: center; 
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-text
+{
+  text-align: center;
+  line-height: 135%;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-bottom: 45px;
+  width: 90%;
+}
+
+.rounded-image
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 10px solid rgb(13, 94, 255);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-title
+{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  
+}
+
+.rounded-image
+{
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img-service
+{
+  width: 40px;
+}
+
+.back-blue-pic
+{
+  height: 400px;
+  width: 100vw;
+  background:
+    linear-gradient(
+      rgba(13, 79, 210, 0.6), 
+      rgba(13, 79, 210, 0.6)
+    ),
+  url('../img/counters-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  overflow-y: scroll;
+  background-attachment: fixed;
+}
+
+.blue-item
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
