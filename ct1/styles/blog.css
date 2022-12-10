@@ -1,0 +1,57 @@
+/* code all the same as in portfolio,
+  just changed class names from 
+  portfolio to blog
+*/
+
+.blog
+{
+  padding-top: 70px;
+  background-color: rgb(242,242,242);
+}
+
+.line-card-blog
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-blog
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0px 10px;
+}
+
+.card-blog-pic
+{
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  box-sizing: border-box;
+  background-color:rgb(242, 242, 242);
+}
+
+.card-blog-content
+{
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 200px; 
+}
+
+.blog-title
+{
+  font-size: 18px;
+}
+
+.blog-card-details
+{
+  font-size: 13px;
+  margin-top: 10px;
+}
