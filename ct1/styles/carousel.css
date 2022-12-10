@@ -1,0 +1,19 @@
+.boot-carousel
+{
+  height: 550px;
+  width: 100vw;
+  background:
+    linear-gradient(
+      rgba(13, 79, 210, 0.45), 
+      rgba(13, 79, 210, 0.45)
+    ),
+  url('../img/overlay-bg.jpg'); 
+  background-size: cover;
+  overflow-y: scroll;
+  background-attachment: fixed;
+}
+
+.carousel-item-image
+{
+  background-size: cover;
+}
