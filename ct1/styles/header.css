@@ -100,38 +100,34 @@ body {
 }
 
 .header {
+  sizing: border-box;
   position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 20px 0px;
-  background-color: black;
-  padding-left: 60px;
-  min-width: 600px;
-  width: 900px;
   justify-content: space-between;
+  padding: 20px 60px;
+  min-width: 600px;
   width: 100vw;
   z-index: 100;
-
-  transition: 400ms;
+  margin-right: auto;
+  margin-left: auto;
+  transition: 300ms;
 }
 
 .scrolled-header {
-  padding: 10px 0px 10px 60px;
+  padding: 7px 60px;
   opacity: 90%;
+  background-color: black;
 }
 
 nav {
   min-width: 500px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  margin: auto;
 }
 
 .nav-bar-items {
   display: flex;
-  align-items: center;
   font-weight: 600;
   justify-content: space-around;
 }
@@ -141,7 +137,7 @@ nav {
   cursor: pointer;
   position: relative;
   color: #a0a0a0;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   padding: 0 10px;
 }
