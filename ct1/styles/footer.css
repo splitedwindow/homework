@@ -81,6 +81,13 @@ textarea:focus
   line-height: 250%;
   border-radius: 30px;
   border: none;
+  transition: 200ms;
+  outline: solid 0px;
+}
+
+.footer-send-message:hover
+{
+  outline: solid 3px rgb(178, 206, 255);
 }
 
 .footer-info
@@ -125,13 +132,8 @@ textarea:focus
 {
   width: 25px;
   filter: brightness(0%);
-  transition: 600ms;
+  transition: 500ms;
   margin: 10px;
-}
-
-.footer-media-pic:hover
-{
-  filter: brightness(500%);
 }
 
 .social-media-wrapper
@@ -142,7 +144,7 @@ textarea:focus
   align-items: center;
   border: 3px solid #0d5eff;
   margin-right: 10px;
-  transition: 600ms;
+  transition: 500ms;
   cursor: pointer;
 }
 
@@ -150,5 +152,10 @@ textarea:focus
 {
   background-color: #0d5eff;
   border-color:rgb(177, 203, 255);
+}
+
+.social-media-wrapper:hover .footer-media-pic
+{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(151deg) brightness(200%) contrast(101%);
 }
 
