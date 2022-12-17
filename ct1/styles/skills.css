@@ -6,7 +6,6 @@
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -147,6 +146,11 @@
   display: flex;
 }
 
+.services
+{
+  padding-top: 80px;
+}
+
 .services-underline {
   width: 50px;
   height: 5px;
@@ -200,7 +204,7 @@
 .card-title
 {
   font-size: 23px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 15px;
   
 }
@@ -213,11 +217,24 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  transition: 400ms;
 }
 
 .img-service
 {
   width: 40px;
+  transition: 400ms;
+}
+
+.rounded-image:hover .img-service
+{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(151deg) brightness(106%) contrast(101%);
+}
+
+.rounded-image:hover
+{
+  background-color: #0d5eff;
+  border-color:rgb(177, 203, 255);
 }
 
 .back-blue-pic

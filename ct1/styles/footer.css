@@ -1,0 +1,154 @@
+/* copied from .boot-carousel */
+footer {
+  height: 850px;
+  width: 100vw;
+  background:
+    linear-gradient(
+      rgba(13, 79, 210, 0.45), 
+      rgba(13, 79, 210, 0.45)
+    ),
+  url('../img/overlay-bg.jpg'); 
+  background-size: cover;
+  overflow-y: scroll;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container
+{
+  margin: 80px 60px 20px 60px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 40px;
+}
+
+.footer-blue-underline
+{
+  height: 3px;
+  background-color: #0d5eff;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.footer-message
+{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: 10px;
+}
+
+#footer-textarea
+{
+  resize: none;
+}
+
+.footer-input
+{
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-width: 1px;
+  margin-bottom: 15px;
+  color: #212529;
+  transition: 300ms;
+}
+
+input:focus
+{
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: 0 0 4px #719ECE;
+}
+
+textarea:focus
+{
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: 0 0 4px #719ECE;
+}
+
+.footer-send-message
+{
+  font-size: 18px;
+  width: 170px;
+  margin: auto;
+  margin-top: 15px;
+  line-height: 250%;
+  border-radius: 30px;
+  border: none;
+}
+
+.footer-info
+{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer-text
+{
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.footer-contact-info
+{
+  margin-top: 15px;
+}
+
+.footer-info-pic
+{
+  width: 16px;
+}
+
+.info-line
+{
+  line-height: 2.2em;
+}
+
+.footer-social-media
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.footer-media-pic
+{
+  width: 25px;
+  filter: brightness(0%);
+  transition: 600ms;
+  margin: 10px;
+}
+
+.footer-media-pic:hover
+{
+  filter: brightness(500%);
+}
+
+.social-media-wrapper
+{
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #0d5eff;
+  margin-right: 10px;
+  transition: 600ms;
+  cursor: pointer;
+}
+
+.social-media-wrapper:hover
+{
+  background-color: #0d5eff;
+  border-color:rgb(177, 203, 255);
+}
+

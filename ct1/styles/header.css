@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+a {
+  color: white !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  overflow-x: hidden;
+  color: rgb(70, 70, 70);
+  background-color: rgb(242, 242, 242);
+}
+
+.photo-header-section {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/header_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  background-attachment: fixed;
+}
+
+.header-drop-down
+{
+  width: 10px;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0px;
+  background-color: black;
+  padding-left: 60px;
+  min-width: 600px;
+  width: 900px;
+  justify-content: space-between;
+  width: 100vw;
+  z-index: 100;
+
+  transition: 400ms;
+}
+
+.scrolled-header {
+  padding: 10px 0px 10px 60px;
+  opacity: 90%;
+}
+
+nav {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-bar-items {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+
+  position: relative;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(242, 242, 242);
+  height: 2px;
+  width: 0%;
+  left: 10px;
+  bottom: -8px;
+  transition: 300ms;
+}
+
+.nav-bar-items a:hover::after, .nav-bar-items a.active::after {
+  width: 70%;
+}
+
+.typed-cursor {
+  height: 5px;
+}
+
+.dev-folio {
+  font-size: 30px;
+  font-weight: 600;
+  width: 20%;
+  margin-left: 50px;
+}
+
+.nav-bar-item:hover {
+  cursor: pointer;
+}
+
+.centered-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+  align-items: center;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.changing-text {
+  font-size: 40px;
+}
