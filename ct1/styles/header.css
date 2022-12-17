@@ -8,6 +8,16 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style-type: none;
+}
+
+.nav-li-item
+{
+  position: relative;
+
+}
+
 .nav-bar-item:link {
   text-decoration: none !important;
 }
@@ -25,6 +35,8 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
+
+
 .photo-header-section {
   height: 100vh;
   width: 100vw;
@@ -38,25 +50,33 @@ body {
   background-attachment: fixed;
 }
 
-.header-drop-down-wrapper
-{
-  position: relative;
-}
-
 /* drop-down menu */
+
+.drop-down-menu:hover .header-drop-down
+{
+  display: flex;
+  top: 30px;
+  opacity: 100%;
+  height: auto;
+}
 
 .header-drop-down
 {
-  display: flex;
   flex-direction: column;
   position: absolute;
   width: 200px;
-  top: 22px;
   left: 10px;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  display:flex;
+  transition: 500ms;
+
+  top: 60px;
+  top: 30px;
+  opacity: 0%;
 }
 
 .header-drop-down .drop-down-item 
@@ -64,6 +84,12 @@ body {
   line-height: 2.7em;
   color: rgb(67, 67, 67) !important;
   font-size: 15px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.drop-down-item:hover{
+  color: rgb(51, 133, 255) !important;
 }
 
 .header-drop-down-icon
@@ -111,7 +137,7 @@ nav {
 
 .nav-bar-item {
   text-decoration: none;
-
+  cursor: pointer;
   position: relative;
   color: #a0a0a0;
   font-size: 18px;
@@ -135,7 +161,8 @@ nav {
 }
 
 .typed-cursor {
-  height: 5px;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .dev-folio {
@@ -143,10 +170,6 @@ nav {
   font-weight: 600;
   width: 20%;
   margin-left: 50px;
-}
-
-.nav-bar-item:hover {
-  cursor: pointer;
 }
 
 .centered-div {
