@@ -1,5 +1,5 @@
 let options = {
-  strings: ['Developer',  'Freelancer', 'Photographer', 'Designer', ],
+  strings: ['Developer',  'Freelancer', 'Photographer', 'Designer'],
   backSpeed: 70,
   typeSpeed: 60,
   loop: true,

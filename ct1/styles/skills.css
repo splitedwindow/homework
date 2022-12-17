@@ -173,7 +173,7 @@
   flex-direction: column;
   background-color: #fff;
   width: 28%;
-  align-items: center; 
+  align-items: center;
   border-radius: 20px;
   margin: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -225,13 +225,18 @@
   width: 40px;
   transition: 400ms;
 }
-
+/* 
 .rounded-image:hover .img-service
+{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(151deg) brightness(106%) contrast(101%);
+} */
+
+.service-card:hover .img-service
 {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(151deg) brightness(106%) contrast(101%);
 }
 
-.rounded-image:hover
+.service-card:hover .rounded-image
 {
   background-color: #0d5eff;
   border-color:rgb(177, 203, 255);
