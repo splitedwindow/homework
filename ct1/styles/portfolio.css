@@ -107,6 +107,14 @@
   border-radius: 100%;
   border: 2px solid rgb(13, 94, 255);
   cursor: pointer;
+  rotate: 0deg;
+  transition: 400ms;
+}
+
+.img-blue-plus:hover
+{
+  rotate: 270deg;
+  border-color: rgb(0, 228, 23);
 }
 
 .card-portfolio-pic1

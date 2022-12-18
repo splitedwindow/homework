@@ -270,13 +270,13 @@
   align-items: center;
   border-radius: 100%;
   border: 9px solid rgba(245, 245, 245, 0.875);
-  width: 60px;
+  width: 90px;
   aspect-ratio: 1;
 }
 
 .blue-img
 {
-  width: 32px;
+  width: 40px;
 }
 
 .blue-content-wrapper
