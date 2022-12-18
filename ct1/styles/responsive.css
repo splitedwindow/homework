@@ -1,4 +1,10 @@
+body {
+  min-width: 820px;
+}
 
+.header {
+  min-width: 820px;
+}
 
 @media only screen and (max-width: 1000px) {
   .header
@@ -95,6 +101,11 @@
     height: 220px;
   }
 
+  .blog-title
+  {
+    line-height: 10%;
+  }
+
   .blog-bottom-wrapper
   {
     margin: auto;
@@ -108,6 +119,11 @@
   .blog-bottom-text
   {
     width: 50px;
+  }
+
+  .s-descriptions
+  {
+    margin-bottom: 0px;
   }
 }
 
