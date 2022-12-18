@@ -8,6 +8,7 @@
   padding-right: 80px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .about-content {
@@ -166,6 +167,7 @@
   box-sizing: border-box;
   /* margin-left: 80px; */
   margin-right: 80px;
+  padding-bottom: 30px;
 }
 
 .service-card {
@@ -177,6 +179,8 @@
   border-radius: 20px;
   margin: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  transition: 100ms;
 }
 
 .card-text
@@ -206,7 +210,7 @@
   font-size: 23px;
   font-weight: 500;
   margin-bottom: 15px;
-  
+  text-align: center;
 }
 
 .rounded-image
@@ -299,4 +303,5 @@
 .blue-title
 {
   margin-top: 8px;
+  text-align: center;
 }
