@@ -1,0 +1,155 @@
+@import "../scss/general-styling.scss";
+
+.intro-section {
+  .double-slider {
+    height: 100vh;
+    min-height: 1200px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    // background-color: salmon;
+
+    &::before {
+      content: "";
+      background-color: $base-color;
+      position: absolute;
+      width: 70%;
+      height: 100vh;
+      min-height: 1200px;
+      top: 0;
+      left: 0;
+      z-index: -10;
+      border-bottom-right-radius: 250px;
+    }
+
+    .secondary-text
+    {
+      color: rgba(255,255,255, 0.6)
+    }
+  }
+
+  // left side
+  .content-to-slide {
+    width: 50%;
+    margin-right: 10px;
+
+    .content-title {
+      color: $white;
+      font-size: 50px;
+      line-height: 110%;
+      margin-bottom: 15px;
+      width: 70%;
+    }
+  }
+
+  // right side
+  .image-slider {
+    width: 50%;
+  }
+
+  .intro-slider-text {
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .button {
+    padding: 1rem 3rem;
+    color: $white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .image-slider {
+    background-image: url("../imgs/img_1.jpeg");
+    background-size: cover;
+    width: 50%;
+    aspect-ratio: 1/1.1;
+    background-position: center;
+    border-top-left-radius: 200px;
+    margin-left: 10px;
+  }
+}
+
+// "LOVE OUR WORK" section
+
+.section-1 {
+  margin-top: 10rem;
+  
+  .block-wrapper
+  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-wrapper {
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+
+  .bg-img-cover {
+    background-image: url('../imgs/img_1.jpeg');
+    aspect-ratio: 1;
+    width: 50%;
+  }
+
+  ul {
+    margin-top: 40px;
+    
+    li{
+      display: flex;
+      position: relative;
+      margin-left: 30px;
+    }
+
+    .check-png
+    {
+      background-image: url("../imgs/small/tick-svgrepo-com.svg");
+      width: 50px;
+      aspect-ratio: 1;
+    }
+
+    img {
+      width: 16px;
+      position: absolute;
+      vertical-align: center;
+      margin-top: 5px;
+      left: -30px;
+      filter: invert(47%) sepia(87%) saturate(461%) hue-rotate(81deg) brightness(94%) contrast(81%);
+    }
+  }
+}
+
+.section-counter
+{
+
+  .item-wrapper
+  {
+    margin-right: 10%;
+  }
+  
+  h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  p {
+    color: gray;
+  }
+  
+  img {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}

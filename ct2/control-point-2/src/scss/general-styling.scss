@@ -1,0 +1,101 @@
+@import './variables.scss';
+
+li {
+  list-style: none;
+}
+
+.family-oswald {
+  font-family: "Oswald" !important;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.width-450
+{
+  width: 450px;
+}
+
+.secondary-text
+{
+  color: $text-color;
+  font-size: 18px;
+  line-height: 165%;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+
+.d-flex
+{
+  display: flex;
+}
+
+.row
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+.title
+{
+  font-size: 3rem;
+  line-height: 110%;
+  margin-bottom: 35px;
+  font-family: 'Oswald';
+  color: $base-color;
+  text-transform: uppercase;
+}
+
+.center-text
+{
+  text-align: center;
+}
+
+.small-title
+{
+  font-size: 1.7rem;
+  line-height: 110%;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: 'Oswald';
+  color: $base-color;
+  text-transform: uppercase;
+}
+
+.bg-img-cover
+{
+  background-size: cover;
+  background-position: center;
+}
+
+.container
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.darker-white
+{
+  background-color: $darker-white;
+}
+
+.site-section
+{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+@media only screen and (min-width: 1200px)
+{
+  .container {
+    max-width: 1140px;
+  }
+}

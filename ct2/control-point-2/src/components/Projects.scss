@@ -1,0 +1,19 @@
+@import "../scss/general-styling.scss";
+
+.section-2
+{
+
+  .secondary-text
+  {
+    width: 550px;
+  }
+
+  .owl-stage
+  {
+    height: 350px;
+    width: 100%;
+    background-color: $base-color;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+}

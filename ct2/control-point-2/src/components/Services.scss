@@ -1,0 +1,40 @@
+@import "../scss/general-styling.scss";
+
+#services {
+
+  .row {
+
+
+    .card {
+      width: 300px;
+      height: 450px;
+      background-color: #fff;
+      margin: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 40px;
+
+      
+      border-top: 8px solid $base-color;
+      border-radius: 5px;
+      
+    }
+  }
+
+  .img-wrapper {
+
+    width: 75px;
+    height: 75px;
+    background-color: $darker-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

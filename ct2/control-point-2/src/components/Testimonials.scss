@@ -1,0 +1,53 @@
+@import "../scss/general-styling.scss";
+
+#testimonials {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondary-text {
+    width: 500px;
+  }
+
+  .double-swiper {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .content-wrapper {
+    width: 50%;
+    padding-right: 3rem;
+    color: #000;
+
+    .quote {
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    .name {
+      letter-spacing: 1px;
+      font-size: 18px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+  }
+
+  .shit-wrapper {
+    .container {
+      flex-direction: row;
+    }
+  }
+
+  .swiper-image {
+    background-image: url("../imgs/person_1.jpeg");
+    width: 45%;
+    margin-left: auto;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    border-top-left-radius: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
