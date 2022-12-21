@@ -1,0 +1,134 @@
+@import "../scss/general-styling.scss";
+
+#pricing {
+  background-color: $base-color;
+  padding-bottom: 15rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    color: $white;
+    margin-bottom: 20px;
+  }
+
+  .secondary-text {
+    color: rgb(255, 255, 255, 0.6);
+    width: 650px;
+  }
+}
+
+.pricing-section-2 {
+  .small-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    position: relative;
+    margin-top: -320px;
+  }
+
+  .card1 {
+    margin-right: 380px;
+  }
+  .card2 {
+    padding-top: 1.2rem;
+    position: absolute;
+    left: 355px;
+    top: -10px;
+
+    width: 400px !important;
+    height: 560px;
+
+    .button {
+      color: $red !important;
+      border-color: $red !important;
+
+      &:hover {
+        color: white !important;
+        background-color: $red !important;
+      }
+    }
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    color: $base-color;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+
+    span {
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  }
+
+  .title {
+    font-size: 5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  .secondary-text {
+    line-height: 130%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .small-title {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .pricing-cards {
+    display: flex;
+    flex-direction: row;
+
+    .smaller-card {
+      padding: 30px;
+      width: 350px;
+      // height: 525px;
+      background-color: $white;
+      box-shadow: 0 5px 30px -5px rgb(0 0 0 / 20%);
+      border-radius: 8px;
+    }
+  }
+
+  .button-wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button {
+      margin-top: 1rem;
+      padding: 1rem 3rem;
+      color: $base-color;
+      border: 2px solid $base-color;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 900;
+      border-radius: 5px;
+      cursor: pointer;
+
+      transition: 200ms;
+      &:hover {
+        color: white;
+        background-color: $base-color;
+      }
+    }
+  }
+}
