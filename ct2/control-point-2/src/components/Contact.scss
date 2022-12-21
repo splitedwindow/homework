@@ -1,0 +1,85 @@
+@import "../scss/general-styling.scss";
+
+#contact {
+
+  .title {
+    margin-bottom: 20px;
+    
+  }
+
+  .wrapper
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-content {
+    width: 50%;
+
+    
+  }
+
+  form {
+    margin-top: 30px;
+
+    .message
+    {
+      
+      .input-style {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .initials {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .input-style {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    font-size: 15px;
+    width: 100%;
+
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 3px;
+  }
+
+  .name {
+    margin-right: 15px;
+  }
+  .surname {
+    margin-left: 15px;
+  }
+
+  textarea {
+    margin-bottom: 10px;
+  }
+
+  .contact-image
+  {
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url('../imgs/about_1.jpg');
+    background-size: cover;
+  }
+  
+  .button
+  {
+    box-sizing: unset;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    background-color: $base-color;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+}

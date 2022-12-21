@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials';
 import Services from './components/Services';
 import Price from './components/Price';
 import Video from './components/Video';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Price />
       <Video />
+      <Contact />
     </>
   )
 }
