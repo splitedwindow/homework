@@ -4,7 +4,9 @@
 
   .container {
     
-    background-color: $base-color;
+    background-image: url('../imgs/video_bg.jpeg');
+    background-size: cover;
+    background-position: center;
     height: 700px;
   }
 }

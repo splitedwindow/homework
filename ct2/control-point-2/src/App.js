@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Price from './components/Price';
 import Video from './components/Video';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Price />
       <Video />
       <Contact />
+      <Footer />
     </>
   )
 }
